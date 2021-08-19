@@ -1,4 +1,5 @@
 <launch>
+  <node name="map" pkg="map_server" type="map_server" args="$(find state_latice_planner)/maps/map.yaml" />
   <node name="planner" pkg="state_latice_planner" type="planner" output="screen" />
   <node name="rviz" pkg="rviz" type="rviz" args="-d $(find state_latice_planner)/rviz/paths.rviz" />
 </launch>
