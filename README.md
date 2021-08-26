@@ -36,5 +36,5 @@ chmod +x ~/catkin_ws/src/my_robot_world/scripts/*
 
 ## Visualisation Launch:
 ```bash
-roslaunch state_latice_planner.launch
+roslaunch src/state_latice_planner/launch/planner.launch
 ```
