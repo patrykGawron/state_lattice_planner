@@ -1,7 +1,6 @@
-# state_lattice_planner
-## Przedmiot: Metody i Algorytmy Planowania Ruchu
 ## Projekt: Implementacja plannera typu state-lattice dla samochodu(C++)
-## Prowadzący: dr inż. Tomasz Gawron
+Przedmiot: Metody i Algorytmy Planowania Ruchu
+Prowadzący: dr inż. Tomasz Gawron
 ## Skład grupy
 * Klaudia Sagat
 * Michał Heit
