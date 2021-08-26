@@ -14,7 +14,8 @@ Projekt przedstawia planner typu state-lattice dla samochodu. Etapy tworzenia pr
 * Implementacja procedury wyszukiwania podobnej do A*,
 * Optymalizacja procedury sprawdzania kolizji i obsługi zbioru węzłów otwartych.
 
-
+## Prymitywy ruchu
+![Graph](https://github.com/patrykGawron/state_lattice_planner/blob/master/prymitywy_ruchu.png)
 
 ## Build:
 ```bash
@@ -35,5 +36,5 @@ chmod +x ~/catkin_ws/src/my_robot_world/scripts/*
 
 ## Visualisation Launch:
 ```bash
-roslaunch my_robot_world myRobot.launch
+roslaunch state_latice_planner.launch
 ```
